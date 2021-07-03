@@ -78,29 +78,25 @@
 }
 #textinstr
 {
-    position: fixed;
-    top:320px;
-    padding-bottom: 5px;
-    left:1060px;
-    border-bottom: 5px solid purple;
+    position: relative;
+    top:50px;
     cursor: pointer;
+}
+#text
+{
+    padding-bottom: 5px;
+    border-bottom: 5px solid purple;
 }
 #textinstr3
 {
-    position: fixed;
-    top:390px;
-    padding-bottom: 5px;
-    left:1060px;
-    border-bottom: 5px solid purple;
+    position: relative;
+    top:80px;
     cursor: pointer;
 }
 #textinstr2
 {
-    padding-bottom: 5px;
-    border-bottom: 5px solid purple;
-    position: fixed;
-    top:460px;
-    left:1020px
+    position: relative;
+    top:110px;
 }
 .text
 {
