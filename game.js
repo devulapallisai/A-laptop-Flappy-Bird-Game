@@ -19,7 +19,7 @@ d.addEventListener("click", function () {
         //This will changes the position of hole we defined which will change the block 
         function defaultfall() {
             if (jumping == 0) {
-                init = init + 3;
+                init = init + 6;
                 charecter.style.top = `${init}px`;
             }
             var blockleft = parseInt(window.getComputedStyle(block).getPropertyValue('left'));
